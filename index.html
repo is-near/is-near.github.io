@@ -9,7 +9,7 @@
 
 
   <title>IS-NEAR</title>
-  <link rel="icon" type="image/x-icon" href="static/images/bamf.png">
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -92,11 +92,14 @@
 <!-- Teaser video-->
 <section class="hero teaser">
   <div class="container is-max-desktop" style="margin-top: -30px">
-    <div class="hero-body">
+    <div class="hero-body has-text-centered">
       <video poster="" id="tree" autoplay muted loop height="100%">
         <!-- Your video here -->
-        <source src="static/videos/media2.mp4" type="video/mp4">
+        <source src="static/videos/media3.mov" type="video/mp4">
       </video>
+      <h2 class="subtitle has-text-centered"  style="margin-top: 30px">
+        We introduce <strong>IS-NEAR</strong>, an advanced implicit semantic neural engine designed for the efficient rendering of high-quality images, geometry, and semantics..
+      </h2>
     </div>
   </div>
 </section>
@@ -105,7 +108,7 @@
 <!-- Paper abstract -->
 <section class="section hero">
   <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered" style="margin-top: -90px">
+    <div class="columns is-centered has-text-centered" style="margin-top: -30px">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
@@ -166,9 +169,43 @@
 </div>
 </section>
 
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Results. -->
+    <div class="columns is-centered ">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered" style="margin-top: -80px">Results</h2>
+
+        <h3 class="title is-4">Synthetic NeRF dataset</h3>
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <!-- Your video here -->
+          <source src="static/videos/nerf.mp4" type="video/mp4">
+        </video>
+
+        <h2 class="title is-4" style="margin-top: 40px"></h2>
+        <h3 class="title is-4">Virtual KITTI Dataset with Sparse Views</h3>
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <!-- Your video here -->
+          <source src="static/videos/vkitti.mp4" type="video/mp4">
+        </video>
+
+        <h2 class="title is-4" style="margin-top: 40px"></h2>
+        <h3 class="title is-4">Application Texture Rerendering</h3>
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <!-- Your video here -->
+          <source src="static/videos/replica.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
+    <div class="container is-max-desktop content" style="margin-top: -40px">
       <h2 class="title">BibTeX</h2>
       <pre><code>@inproceedings{sun2024is,
     title     = {IS-NEAR: Implicit Semantic Neural Engine and Multi-Sensor Data Rendering With 3D Global Feature},
